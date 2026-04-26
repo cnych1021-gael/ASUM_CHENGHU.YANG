@@ -62,8 +62,7 @@ else:
         
         # 显示用户信息
         st.markdown(f"""
-        **👤 {user_name}**  
-        🏢 {st.session_state.user_profile.get('institution', 'N/A')}  
+        **👤 {user_name}** 🏢 {st.session_state.user_profile.get('institution', 'N/A')}  
         🎭 {'专家模式' if role == 'expert' else '新手模式'}  
         🎯 {f"实验组 (推荐)" if ab_group == 'experiment' else "对照组 (无推荐)"}
         """)
