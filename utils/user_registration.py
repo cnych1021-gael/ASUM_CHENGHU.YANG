@@ -11,13 +11,11 @@ except Exception:
     SHEET_ID = ""
 
 def get_gsheets_conn():
-    # 建立连接时不设置任何限制
     return st.connection("gsheets", type=GSheetsConnection)
 
 def save_user_profile_to_sheets(user_profile):
     conn = get_gsheets_conn()
     try:
-        # 【强制清除缓存读取】
         try:
             existing_df = conn.read(spreadsheet=SHEET_ID, worksheet="Registry", ttl=0)
             st.session_state["_debug_registry_read"] = "Success"
@@ -25,7 +23,6 @@ def save_user_profile_to_sheets(user_profile):
             existing_df = pd.DataFrame()
             st.session_state["_debug_registry_read"] = f"Failed: {str(e)}"
         
-        # 强制转换所有字典内容为纯文本字符串
         clean_profile = {str(k): str(v) for k, v in user_profile.items()}
         new_entry = pd.DataFrame([clean_profile])
         
@@ -38,7 +35,6 @@ def save_user_profile_to_sheets(user_profile):
         else:
             updated_df = new_entry
         
-        # 强制执行更新
         try:
             conn.update(spreadsheet=SHEET_ID, worksheet="Registry", data=updated_df)
             st.session_state["_debug_registry_write"] = "Attempted"
@@ -80,7 +76,7 @@ def record_user_interaction(user_id, action, concept=None, dimension=None, page=
             conn.update(spreadsheet=SHEET_ID, worksheet="Interactions", data=updated_df)
         except Exception as update_error:
             if "200" not in str(update_error):
-                pass # 忽略报错
+                pass
     except Exception:
         pass
 
@@ -113,7 +109,6 @@ def register_user(name, institution, role, language='zh'):
 def show_user_login_page(language='zh'):
     st.header("用户注册 / Registration")
     
-    # 【新增】诊断面板，帮我们看清到底发生了什么
     with st.expander("🛠️ 后台诊断面板 (Debug)"):
         st.write("读取状态:", st.session_state.get("_debug_registry_read", "未执行"))
         st.write("写入状态:", st.session_state.get("_debug_registry_write", "未执行"))
