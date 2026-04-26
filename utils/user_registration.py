@@ -5,36 +5,144 @@ import hashlib
 import random
 from streamlit_gsheets import GSheetsConnection
 
-# 1. 自动从 Secrets 获取 spreadsheet ID
-SHEET_ID = st.secrets["connections"]["gsheets"]["spreadsheet"]
+# 1. 尝试从 Secrets 获取 ID
+try:
+    SHEET_ID = st.secrets["connections"]["gsheets"]["spreadsheet"]
+except Exception:
+    st.error("❌ 无法从 Secrets 中读取 spreadsheet ID，请检查 Secrets 配置。")
+    SHEET_ID = ""
 
 def get_gsheets_conn():
     """建立与 Google Sheets 的连接"""
+    # 这里会自动读取 Secrets 里的 [connections.gsheets] 配置
     return st.connection("gsheets", type=GSheetsConnection)
 
-def load_user_registry_from_sheets():
-    conn = get_gsheets_conn()
-    try:
-        df = conn.read(spreadsheet=SHEET_ID, worksheet="Registry", ttl=0)
-        if df.empty:
-            return {}
-        df['user_id'] = df['user_id'].astype(str)
-        return df.set_index('user_id').to_dict('index')
-    except Exception:
-        return {}
-
 def save_user_profile_to_sheets(user_profile):
+    """保存用户注册信息到 Registry 工作表"""
     conn = get_gsheets_conn()
     try:
+        # 1. 读取现有数据 (ttl=0 确保不读取缓存)
         try:
             existing_df = conn.read(spreadsheet=SHEET_ID, worksheet="Registry", ttl=0)
-        except:
+        except Exception:
             existing_df = pd.DataFrame()
         
+        # 2. 准备新数据，强制全部转为字符串 (防止日期类型引起 Google API 报错)
         new_entry = pd.DataFrame([user_profile]).astype(str)
         
         if not existing_df.empty:
+            # 确保 ID 列是字符串
             existing_df['user_id'] = existing_df['user_id'].astype(str)
+            user_id_str = str(user_profile['user_id'])
+            
+            # 如果 ID 已存在则先删除旧行
+            if user_id_str in existing_df['user_id'].values:
+                existing_df = existing_df[existing_df['user_id'] != user_id_str]
+            updated_df = pd.concat([existing_df, new_entry], ignore_index=True)
+        else:
+            updated_df = new_entry
+        
+        # 3. 执行更新 (显式指定 spreadsheet 参数)
+        conn.update(spreadsheet=SHEET_ID, worksheet="Registry", data=updated_df)
+        return True
+    except Exception as e:
+        # 这里会打印出具体的错误原因
+        st.error(f"⚠️ 写入 Registry 失败: {str(e)}")
+        return False
+
+def record_user_interaction(user_id, action, concept=None, dimension=None, page=None):
+    """记录用户点击行为到 Interactions 工作表"""
+    conn = get_gsheets_conn()
+    try:
+        user_profile = st.session_state.get('user_profile', {})
+        ab_group = user_profile.get('ab_group', 'unknown')
+        
+        # 准备新记录，强制全字符串
+        new_record = pd.DataFrame([{
+            'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            'user_id': str(user_id),
+            'action': str(action),
+            'concept': str(concept) if concept else "",
+            'dimension': str(dimension) if dimension else "",
+            'page': str(page) if page else "",
+            'ab_group': str(ab_group)
+        }]).astype(str)
+        
+        try:
+            existing_df = conn.read(spreadsheet=SHEET_ID, worksheet="Interactions", ttl=0)
+            updated_df = pd.concat([existing_df, new_record], ignore_index=True)
+        except Exception:
+            updated_df = new_record
+            
+        conn.update(spreadsheet=SHEET_ID, worksheet="Interactions", data=updated_df)
+    except Exception as e:
+        # 交互记录失败通常不中断用户体验，仅在后台静默输出
+        print(f"Log interaction failed: {e}")
+
+# ==================== 其他必须保留的逻辑函数 ====================
+
+def update_user_activity(user_id):
+    """保留接口，防止 app.py 报错"""
+    pass
+
+def generate_user_id(name, institution):
+    """生成唯一ID"""
+    raw = f"{name}_{institution}_{datetime.now().isoformat()}"
+    return hashlib.md5(raw.encode()).hexdigest()[:12]
+
+def assign_ab_group():
+    """随机分配A/B组"""
+    return 'experiment' if random.random() > 0.5 else 'control'
+
+def register_user(name, institution, role, language='zh'):
+    """注册用户主逻辑"""
+    user_id = generate_user_id(name, institution)
+    ab_group = assign_ab_group()
+    user_profile = {
+        'user_id': user_id, 
+        'name': name, 
+        'institution': institution,
+        'role': role, 
+        'language': language, 
+        'ab_group': ab_group,
+        'registered_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+    if save_user_profile_to_sheets(user_profile):
+        return user_id, ab_group
+    return None, None
+
+def show_user_login_page(language='zh'):
+    """显示登录/注册界面"""
+    st.header("用户注册 / Registration")
+    
+    user_name = st.text_input("您的姓名 / Your Name", key="user_reg_name")
+    user_inst = st.text_input("您的机构 / Your Institution", key="user_reg_inst")
+    mode = st.selectbox("模式选择 / Select Mode", ["新手模式 / Novice", "专家模式 / Expert"])
+    
+    if st.button("进入系统 / Enter", type="primary", use_container_width=True):
+        if user_name and user_inst:
+            role = 'novice' if "新手" in mode else 'expert'
+            user_id, ab_group = register_user(user_name, user_inst, role, language)
+            
+            if user_id:
+                st.session_state.user_profile = {
+                    'user_id': user_id,
+                    'name': user_name,
+                    'institution': user_inst,
+                    'role': role,
+                    'language': language,
+                    'ab_group': ab_group
+                }
+                st.success("✅ 登录成功！数据已同步。")
+                st.balloons()
+                st.rerun()
+        else:
+            st.warning("⚠️ 请完整填写姓名和机构。")
+    return False
+
+def get_ab_test_statistics():
+    """空接口，防止其他页面调用时报错"""
+    return {}            existing_df['user_id'] = existing_df['user_id'].astype(str)
             user_id_str = str(user_profile['user_id'])
             if user_id_str in existing_df['user_id'].values:
                 existing_df = existing_df[existing_df['user_id'] != user_id_str]
