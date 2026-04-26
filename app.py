@@ -25,21 +25,17 @@ st.title(get_text('app_title', current_lang))
 st.markdown(f"### {get_text('app_subtitle', current_lang)}")
 
 # ==================== 用户登录检查 ====================
-# 检查是否需要显示登录页面
 show_login = (
     'user_profile' not in st.session_state or 
     not st.session_state.user_profile or
-    st.session_state.user_profile.get('user_id') is None  # 改为检查值是否为None
+    st.session_state.user_profile.get('user_id') is None
 )
 
 if show_login:
-    # 显示登录页面
     login_success = show_user_login_page(language=current_lang)
     
     if login_success:
-        # 更新用户活跃度
         update_user_activity(st.session_state.user_profile['user_id'])
-        # 记录登录事件
         record_user_interaction(
             user_id=st.session_state.user_profile['user_id'],
             action='login',
@@ -47,7 +43,7 @@ if show_login:
         )
         st.rerun()
     
-    st.stop()  # 登录完成前不显示主页内容
+    st.stop()
 
 # ==================== 用户已登录 ====================
 else:
@@ -56,11 +52,9 @@ else:
     user_id = st.session_state.user_profile['user_id']
     ab_group = st.session_state.user_profile.get('ab_group', 'unknown')
     
-    # 侧边栏：用户信息
     with st.sidebar:
         st.header(get_text('your_profile', current_lang))
         
-        # 显示用户信息
         st.markdown(f"""
         **👤 {user_name}** 🏢 {st.session_state.user_profile.get('institution', 'N/A')}  
         🎭 {'专家模式' if role == 'expert' else '新手模式'}  
@@ -69,7 +63,6 @@ else:
         
         st.markdown("---")
         
-        # 用户统计
         stats = get_user_stats()
         if stats:
             for key, value in stats.items():
@@ -77,22 +70,17 @@ else:
         
         st.markdown("---")
         
-        # 退出登录按钮
         if st.button(get_text('logout', current_lang)):
-            # 记录登出事件
             record_user_interaction(
                 user_id=user_id,
                 action='logout',
                 page='app'
             )
-            # 清除session
             st.session_state.user_profile = {}
             st.rerun()
         
-        # 演示模式（仅用于开发测试）
         demo_user_switcher()
     
-    # 主页内容
     if ab_group == 'experiment':
         st.success(f"✅ 欢迎回来，{user_name}！您将获得个性化推荐。")
     else:
@@ -100,7 +88,6 @@ else:
     
     st.markdown("---")
     
-    # 项目介绍
     col1, col2 = st.columns([2, 1])
     
     with col1:
@@ -158,7 +145,7 @@ else:
                 We use AI to analyze half a century of UN speeches and show you the answers in simple charts!
                 """)
         
-        else:  # Spanish
+        else:
             st.header("📊 Sobre Esta Plataforma")
             
             if role == 'expert':
@@ -191,7 +178,6 @@ else:
     
     st.markdown("---")
     
-    # 快速导航
     nav_texts = {
         'zh': {
             'title': '🧭 从这里开始探索',
@@ -248,5 +234,4 @@ else:
         else:
             st.info(nav_t['locked'])
     
-    # 底部信息
     st.markdown("---")
