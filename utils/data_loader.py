@@ -1,6 +1,28 @@
 import pandas as pd
 import streamlit as st
 from pathlib import Path
+import os
+import gdown
+
+def download_models_from_drive():
+    # 设定你想保存模型的路径，根据你之前的截图，应该是放在 data/user_data/ 目录下
+    save_dir = "data/user_data"
+    
+    # 确保文件夹存在，如果不存在就自动创建一个
+    os.makedirs(save_dir, exist_ok=True)
+    
+    # 我们用其中一个模型文件来做检查，避免每次刷新网页都重复下载
+    check_file_path = os.path.join(save_dir, "word2vec_cold_war.model")
+    
+    # 如果文件不存在，说明是第一次在云端运行，开始下载
+    if not os.path.exists(check_file_path):
+        print("未检测到模型文件，正在从 Google Drive 自动下载...")
+        # 这是你提供的文件夹链接
+        folder_url = "https://drive.google.com/drive/folders/1QlERW6eTkEASYL5_qS1OHY-ve89QsL2v?usp=share_link"
+        
+        # 使用 gdown 下载整个文件夹的内容到指定目录
+        gdown.download_folder(folder_url, output=save_dir, quiet=False, use_cookies=False)
+        print("模型下载完成！")
 
 # 数据文件路径
 DATA_DIR = Path(__file__).parent.parent / "data"
