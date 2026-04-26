@@ -1,0 +1,3862 @@
+[
+  {
+    "user_id": "user_000",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T14:17:31.080230"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T01:57:31.080241"
+      },
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T19:10:31.080245"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T21:48:31.080247"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T16:59:31.080249"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T13:37:31.080251"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T15:15:31.080253"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T17:19:31.080255"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T04:37:31.080257"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T15:26:31.080258"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T07:44:31.080260"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T16:57:31.080262"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T10:42:31.080264"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T14:12:31.080265"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T06:50:31.080267"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T03:43:31.080269"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T05:16:31.080271"
+      },
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T07:01:31.080272"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T10:05:31.080274"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T02:56:31.080276"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T03:50:31.080278"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T09:12:31.080280"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T19:03:31.080282"
+      }
+    ],
+    "explored_concepts": [
+      "disarmament",
+      "governance",
+      "ward",
+      "terrorism",
+      "territorial_integrity",
+      "globalization",
+      "market",
+      "discrimination",
+      "intervention",
+      "conflict_resolution",
+      "sovereignty",
+      "sanctions",
+      "rule_law",
+      "self_determination",
+      "law",
+      "multilateralism",
+      "political_stability"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 7.312982402184822,
+    "interest_dimensions": [
+      "维度一: 政治法律",
+      "维度三: 安全冲突"
+    ]
+  },
+  {
+    "user_id": "user_001",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T22:23:31.080295"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T04:13:31.080297"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T02:07:31.080299"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T17:35:31.080300"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T11:58:31.080302"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T08:38:31.080304"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T15:42:31.080306"
+      },
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T01:44:31.080308"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T12:05:31.080310"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T17:53:31.080311"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T19:25:31.080313"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-17T15:32:31.080315"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T05:44:31.080316"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T16:47:31.080318"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T10:08:31.080320"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T04:56:31.080322"
+      },
+      {
+        "concept": "environment",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T15:04:31.080324"
+      }
+    ],
+    "explored_concepts": [
+      "democracy",
+      "technology",
+      "communication",
+      "culture",
+      "gender_equality",
+      "dignity",
+      "health",
+      "minority_rights",
+      "environment",
+      "information",
+      "conservation",
+      "political_stability"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 5.0695809199424,
+    "interest_dimensions": [
+      "维度一: 政治法律",
+      "维度二: 人权意识",
+      "维度六: 科技文化"
+    ]
+  },
+  {
+    "user_id": "user_002",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T14:56:31.080331"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T03:48:31.080333"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T19:01:31.080335"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T10:36:31.080336"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T13:51:31.080338"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T06:49:31.080340"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T19:20:31.080341"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T00:43:31.080343"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T10:19:31.080345"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T03:50:31.080347"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T16:48:31.080348"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T23:17:31.080350"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T06:36:31.080351"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T02:37:31.080353"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T07:29:31.080355"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T13:07:31.080356"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T02:02:31.080358"
+      }
+    ],
+    "explored_concepts": [
+      "disarmament",
+      "culture",
+      "governance",
+      "territorial_integrity",
+      "globalization",
+      "peacekeeping",
+      "armed_conflict",
+      "energy",
+      "state",
+      "intervention",
+      "finance",
+      "security_council"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 6.185712799261626,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度一: 政治法律",
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_003",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T01:04:31.080364"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T17:49:31.080366"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T07:40:31.080368"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T03:27:31.080369"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T18:29:31.080371"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T03:12:31.080373"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T01:15:31.080375"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T21:12:31.080377"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T19:00:31.080378"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T21:25:31.080380"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T21:32:31.080382"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T15:22:31.080384"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T21:23:31.080386"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T07:52:31.080388"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T11:36:31.080389"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T04:27:31.080391"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T00:49:31.080393"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T18:10:31.080395"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T04:08:31.080397"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T01:52:31.080398"
+      }
+    ],
+    "explored_concepts": [
+      "technology",
+      "communication",
+      "culture",
+      "education",
+      "heritage",
+      "innovation",
+      "finance",
+      "science",
+      "water",
+      "information"
+    ],
+    "diversity_score": 0.5,
+    "explored_dimensions": 3,
+    "session_duration": 7.159139262459431,
+    "interest_dimensions": [
+      "维度六: 科技文化"
+    ]
+  },
+  {
+    "user_id": "user_004",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T12:04:31.080403"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T01:28:31.080405"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T07:33:31.080407"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T21:02:31.080409"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T14:50:31.080410"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T02:29:31.080412"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T12:31:31.080414"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T17:51:31.080416"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T04:44:31.080418"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T13:00:31.080419"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T22:31:31.080421"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T08:02:31.080423"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T06:49:31.080424"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T23:24:31.080426"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T14:08:31.080428"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T02:22:31.080429"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T14:59:31.080431"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T16:02:31.080433"
+      }
+    ],
+    "explored_concepts": [
+      "sustainable_development",
+      "economic_development",
+      "democracy",
+      "culture",
+      "market",
+      "dignity",
+      "inequality",
+      "social_justice",
+      "minority_rights",
+      "finance",
+      "freedom",
+      "trade"
+    ],
+    "diversity_score": 0.5,
+    "explored_dimensions": 3,
+    "session_duration": 8.55491240625431,
+    "interest_dimensions": [
+      "维度四: 经济贸易",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_005",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T21:06:31.080440"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T18:26:31.080442"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T07:51:31.080443"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T04:17:31.080445"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T08:32:31.080447"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T21:54:31.080449"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T16:12:31.080450"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T17:45:31.080452"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T11:20:31.080454"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T05:45:31.080456"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T16:01:31.080457"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T20:43:31.080459"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T14:58:31.080461"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T20:27:31.080463"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T20:44:31.080464"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T12:56:31.080466"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T01:57:31.080468"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T10:11:31.080470"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T03:59:31.080471"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T17:52:31.080473"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T17:12:31.080475"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T08:49:31.080477"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T10:40:31.080478"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T17:05:31.080480"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T12:43:31.080483"
+      }
+    ],
+    "explored_concepts": [
+      "climate_change",
+      "economic_development",
+      "biodiversity",
+      "civil_society",
+      "globalization",
+      "innovation",
+      "market",
+      "human_right",
+      "discrimination",
+      "inequality",
+      "equality",
+      "natural_resources",
+      "pollution",
+      "debt",
+      "finance",
+      "trade",
+      "water"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 10.39110504116807,
+    "interest_dimensions": [
+      "维度四: 经济贸易",
+      "维度五: 环境资源",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_006",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T19:44:31.080488"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T06:06:31.080490"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T01:02:31.080492"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T12:09:31.080494"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T16:58:31.080496"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T08:03:31.080497"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T10:27:31.080499"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T13:56:31.080501"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-25T11:36:31.080502"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T12:05:31.080504"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T23:37:31.080506"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T02:16:31.080507"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T05:38:31.080509"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T14:14:31.080511"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T20:49:31.080512"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T03:59:31.080514"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T22:43:31.080516"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-25T11:00:31.080517"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T19:33:31.080519"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T21:35:31.080521"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T05:37:31.080522"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T09:11:31.080524"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T22:00:31.080526"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T22:09:31.080527"
+      }
+    ],
+    "explored_concepts": [
+      "sustainable_development",
+      "democracy",
+      "poverty",
+      "gender_equality",
+      "globalization",
+      "digital",
+      "market",
+      "dignity",
+      "discrimination",
+      "inequality",
+      "social_justice",
+      "minority_rights",
+      "finance",
+      "investment",
+      "freedom"
+    ],
+    "diversity_score": 0.5,
+    "explored_dimensions": 3,
+    "session_duration": 11.620185333613588,
+    "interest_dimensions": [
+      "维度四: 经济贸易",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_007",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T23:29:31.080532"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T20:12:31.080534"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T11:59:31.080536"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T22:13:31.080537"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T02:03:31.080539"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T01:19:31.080541"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T05:07:31.080543"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T22:50:31.080545"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T14:51:31.080546"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T16:06:31.080548"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T07:51:31.080550"
+      }
+    ],
+    "explored_concepts": [
+      "technology",
+      "communication",
+      "culture",
+      "education",
+      "digital",
+      "innovation"
+    ],
+    "diversity_score": 0.16666666666666666,
+    "explored_dimensions": 1,
+    "session_duration": 4.269605103933065,
+    "interest_dimensions": [
+      "维度六: 科技文化"
+    ]
+  },
+  {
+    "user_id": "user_008",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T00:05:31.080554"
+      },
+      {
+        "concept": "environment",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T09:27:31.080556"
+      },
+      {
+        "concept": "deforestation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T09:17:31.080558"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T12:20:31.080560"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T05:45:31.080562"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T12:04:31.080563"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T19:25:31.080565"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T11:42:31.080567"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T06:44:31.080569"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T22:58:31.080570"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T13:02:31.080572"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T16:02:31.080574"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T01:11:31.080576"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T18:25:31.080577"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T22:09:31.080579"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T09:10:31.080581"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T20:26:31.080583"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T14:04:31.080584"
+      }
+    ],
+    "explored_concepts": [
+      "biodiversity",
+      "sustainable_development",
+      "poverty",
+      "culture",
+      "deforestation",
+      "education",
+      "digital",
+      "discrimination",
+      "debt",
+      "pollution",
+      "finance",
+      "environment",
+      "science",
+      "trade",
+      "water"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 7.992990668103362,
+    "interest_dimensions": [
+      "维度六: 科技文化",
+      "维度四: 经济贸易",
+      "维度五: 环境资源"
+    ]
+  },
+  {
+    "user_id": "user_009",
+    "user_type": "expert",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T22:26:31.080589"
+      },
+      {
+        "concept": "environment",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T08:15:31.080591"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T20:00:31.080592"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T15:22:31.080594"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T15:30:31.080596"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T15:37:31.080598"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T06:59:31.080600"
+      },
+      {
+        "concept": "environment",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T15:38:31.080601"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T21:48:31.080603"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T06:24:31.080605"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T12:52:31.080606"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T23:55:31.080608"
+      }
+    ],
+    "explored_concepts": [
+      "technology",
+      "culture",
+      "human_right",
+      "environment",
+      "trade",
+      "water",
+      "information",
+      "conservation"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 8.766776747465679,
+    "interest_dimensions": [
+      "维度六: 科技文化",
+      "维度五: 环境资源",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_010",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T17:31:31.080612"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T16:11:31.080614"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T06:39:31.080616"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T20:41:31.080617"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T06:24:31.080619"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T18:14:31.080621"
+      },
+      {
+        "concept": "sustainable",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T04:27:31.080623"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T05:46:31.080625"
+      }
+    ],
+    "explored_concepts": [
+      "climate_change",
+      "biodiversity",
+      "culture",
+      "energy",
+      "sustainable",
+      "water",
+      "conservation"
+    ],
+    "diversity_score": 0.3333333333333333,
+    "explored_dimensions": 2,
+    "session_duration": 6.248209137530821,
+    "interest_dimensions": [
+      "维度五: 环境资源"
+    ]
+  },
+  {
+    "user_id": "user_011",
+    "user_type": "novice",
+    "ab_group": "control",
+    "click_history": [
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T13:06:31.080629"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T05:03:31.080630"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T22:53:31.080632"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T04:51:31.080633"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T11:28:31.080635"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T00:32:31.080637"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T18:20:31.080639"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T01:12:31.080640"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T04:04:31.080642"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T16:50:31.080644"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T15:39:31.080645"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T14:49:31.080647"
+      }
+    ],
+    "explored_concepts": [
+      "ward",
+      "territorial_integrity",
+      "peacekeeping",
+      "armed_conflict",
+      "state",
+      "inequality",
+      "conflict_resolution",
+      "sanctions",
+      "self_determination",
+      "law",
+      "political_stability"
+    ],
+    "diversity_score": 0.5,
+    "explored_dimensions": 3,
+    "session_duration": 7.904829325159356,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度一: 政治法律"
+    ]
+  },
+  {
+    "user_id": "user_012",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T21:49:31.080653"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T07:47:31.080655"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T07:31:31.080656"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T15:42:31.080658"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T13:52:31.080660"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T15:49:31.080661"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T06:00:31.080663"
+      },
+      {
+        "concept": "deforestation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T12:54:31.080665"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T01:42:31.080667"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T13:40:31.080675"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T07:01:31.080676"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T09:42:31.080678"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T12:36:31.080680"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T18:46:31.080681"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T16:33:31.080683"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T07:48:31.080684"
+      }
+    ],
+    "explored_concepts": [
+      "technology",
+      "ward",
+      "deforestation",
+      "civil_society",
+      "self_determination",
+      "human_right",
+      "market",
+      "state",
+      "natural_resources",
+      "health",
+      "nuclear_weapons",
+      "freedom",
+      "information"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 6.36319216382126,
+    "interest_dimensions": [
+      "维度二: 人权意识",
+      "维度五: 环境资源",
+      "维度六: 科技文化"
+    ]
+  },
+  {
+    "user_id": "user_013",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T02:37:31.080690"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T08:10:31.080691"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T22:38:31.080693"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T13:43:31.080695"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T18:22:31.080696"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T16:05:31.080698"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T09:25:31.080700"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T11:14:31.080701"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T05:15:31.080703"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T09:53:31.080705"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T19:37:31.080706"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T20:15:31.080708"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T03:00:31.080710"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T15:29:31.080711"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T15:03:31.080713"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T09:32:31.080715"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T13:56:31.080717"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T21:51:31.080719"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T02:15:31.080721"
+      },
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T04:03:31.080727"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T08:59:31.080729"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T03:57:31.080730"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T16:03:31.080732"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T23:30:31.080734"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T22:29:31.080736"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T05:02:31.080738"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T03:27:31.080740"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T16:11:31.080742"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-17T19:09:31.080743"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T16:42:31.080745"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T01:08:31.080747"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T06:07:31.080749"
+      }
+    ],
+    "explored_concepts": [
+      "equality",
+      "nuclear_weapons",
+      "minority_rights",
+      "sovereignty",
+      "self_determination",
+      "water",
+      "heritage",
+      "human_right",
+      "dignity",
+      "social_justice",
+      "health",
+      "investment",
+      "communication",
+      "governance",
+      "ward",
+      "digital",
+      "state",
+      "natural_resources",
+      "pollution",
+      "trade",
+      "information",
+      "energy",
+      "freedom",
+      "law"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 11.749498795526737,
+    "interest_dimensions": [
+      "维度一: 政治法律",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_014",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T15:31:31.080755"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T02:52:31.080757"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T21:17:31.080759"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T08:08:31.080760"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T11:43:31.080762"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T15:06:31.080764"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T20:02:31.080766"
+      },
+      {
+        "concept": "ceasefire",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-25T11:21:31.080767"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T13:13:31.080769"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T18:47:31.080771"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T10:33:31.080772"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T19:30:31.080774"
+      },
+      {
+        "concept": "environment",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T14:47:31.080776"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T10:13:31.080777"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T18:02:31.080785"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T10:14:31.080786"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T05:33:31.080788"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T10:22:31.080790"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T01:44:31.080791"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T03:38:31.080793"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T07:53:31.080795"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T00:52:31.080797"
+      },
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T08:06:31.080799"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T12:18:31.080800"
+      }
+    ],
+    "explored_concepts": [
+      "biodiversity",
+      "culture",
+      "innovation",
+      "equality",
+      "nuclear_weapons",
+      "sustainable_development",
+      "ceasefire",
+      "education",
+      "civil_society",
+      "social_justice",
+      "health",
+      "investment",
+      "poverty",
+      "governance",
+      "digital",
+      "peacekeeping",
+      "armed_conflict",
+      "inequality",
+      "pollution",
+      "security_council",
+      "environment",
+      "conservation"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 19.35750689615179,
+    "interest_dimensions": [
+      "维度五: 环境资源",
+      "维度四: 经济贸易",
+      "维度三: 安全冲突"
+    ]
+  },
+  {
+    "user_id": "user_015",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T18:05:31.080805"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T08:13:31.080807"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T13:21:31.080808"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T22:36:31.080810"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T15:12:31.080812"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T04:57:31.080813"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T18:40:31.080815"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T12:57:31.080816"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T01:56:31.080818"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T19:58:31.080820"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T00:01:31.080821"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T15:40:31.080823"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T05:25:31.080824"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T22:43:31.080826"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T12:06:31.080829"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T08:52:31.080831"
+      },
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T23:59:31.080838"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T16:03:31.080840"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T09:02:31.080841"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T02:47:31.080844"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T01:23:31.080846"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T20:23:31.080847"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T05:06:31.080849"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T15:37:31.080851"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T19:56:31.080853"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T17:23:31.080855"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T09:11:31.080856"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T04:50:31.080859"
+      }
+    ],
+    "explored_concepts": [
+      "culture",
+      "terrorism",
+      "gender_equality",
+      "equality",
+      "debt",
+      "minority_rights",
+      "sovereignty",
+      "water",
+      "climate_change",
+      "education",
+      "heritage",
+      "human_right",
+      "democracy",
+      "governance",
+      "ward",
+      "natural_resources",
+      "conflict_resolution",
+      "disarmament",
+      "territorial_integrity",
+      "energy",
+      "intervention",
+      "finance",
+      "freedom",
+      "multilateralism"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 13.69012228879544,
+    "interest_dimensions": [
+      "维度一: 政治法律",
+      "维度二: 人权意识",
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_016",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T09:29:31.080864"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T20:18:31.080865"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T19:22:31.080867"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T22:40:31.080868"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T02:29:31.080870"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T15:44:31.080872"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T10:29:31.080873"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T07:51:31.080875"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T15:09:31.080877"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T02:21:31.080878"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T07:01:31.080883"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T19:20:31.080884"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T12:31:31.080886"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T09:20:31.080888"
+      },
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T01:58:31.080890"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T04:41:31.080891"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-17T15:48:31.080893"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T13:32:31.080895"
+      }
+    ],
+    "explored_concepts": [
+      "sustainable_development",
+      "disarmament",
+      "ward",
+      "territorial_integrity",
+      "globalization",
+      "civil_society",
+      "armed_conflict",
+      "state",
+      "health",
+      "conflict_resolution",
+      "sovereignty",
+      "finance",
+      "rule_law",
+      "self_determination",
+      "law",
+      "political_stability"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 16.959259046974793,
+    "interest_dimensions": [
+      "维度一: 政治法律"
+    ]
+  },
+  {
+    "user_id": "user_017",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T20:36:31.080899"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T03:46:31.080901"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T02:26:31.080902"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T01:34:31.080904"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T02:51:31.080906"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T15:57:31.080907"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T14:08:31.080912"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T10:22:31.080913"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T22:39:31.080915"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T16:36:31.080917"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T10:08:31.080918"
+      }
+    ],
+    "explored_concepts": [
+      "biodiversity",
+      "democracy",
+      "governance",
+      "civil_society",
+      "human_right",
+      "state",
+      "equality",
+      "minority_rights",
+      "sanctions",
+      "rule_law"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 7.630952556523423,
+    "interest_dimensions": [
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_018",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T00:26:31.080923"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T16:31:31.080925"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T01:11:31.080927"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T22:03:31.080928"
+      },
+      {
+        "concept": "political_stability",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T21:41:31.080930"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T14:48:31.080931"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T16:52:31.080933"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T09:43:31.080935"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T12:49:31.080936"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T07:53:31.080944"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T10:06:31.080946"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T09:31:31.080947"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T22:48:31.080949"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T15:44:31.080951"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T07:39:31.080952"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T15:02:31.080954"
+      }
+    ],
+    "explored_concepts": [
+      "climate_change",
+      "communication",
+      "science",
+      "poverty",
+      "disarmament",
+      "ward",
+      "inequality",
+      "intervention",
+      "nuclear_weapons",
+      "pollution",
+      "self_determination",
+      "information",
+      "conservation",
+      "political_stability"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 19.00057230317298,
+    "interest_dimensions": [
+      "维度四: 经济贸易",
+      "维度五: 环境资源",
+      "维度一: 政治法律"
+    ]
+  },
+  {
+    "user_id": "user_019",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T12:49:31.080959"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-17T15:40:31.080961"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T00:30:31.080962"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T17:49:31.080964"
+      },
+      {
+        "concept": "sustainable",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T22:34:31.080966"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T03:30:31.080968"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T14:57:31.080970"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T03:25:31.080971"
+      },
+      {
+        "concept": "sustainable",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T01:20:31.080973"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T06:34:31.080975"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T01:09:31.080976"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T02:30:31.080979"
+      },
+      {
+        "concept": "deforestation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T14:57:31.080981"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T12:16:31.080983"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T20:21:31.080984"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T20:42:31.080986"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T19:12:31.080993"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T11:27:31.080995"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T00:13:31.080996"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T13:10:31.080998"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-25T10:29:31.081000"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T10:49:31.081001"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T04:49:31.081003"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T18:40:31.081005"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T00:15:31.081006"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T11:00:31.081008"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T17:54:31.081010"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T01:30:31.081011"
+      }
+    ],
+    "explored_concepts": [
+      "culture",
+      "multilateralism",
+      "nuclear_weapons",
+      "self_determination",
+      "water",
+      "climate_change",
+      "sustainable_development",
+      "deforestation",
+      "civil_society",
+      "heritage",
+      "human_right",
+      "dignity",
+      "digital",
+      "natural_resources",
+      "rule_law",
+      "security_council",
+      "economic_development",
+      "disarmament",
+      "market",
+      "sustainable",
+      "finance",
+      "law",
+      "conservation"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 8.199510730458792,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度六: 科技文化",
+      "维度五: 环境资源"
+    ]
+  },
+  {
+    "user_id": "user_020",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T11:32:31.081016"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T17:31:31.081018"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T04:49:31.081019"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T19:20:31.081021"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T13:28:31.081023"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T18:20:31.081025"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T09:32:31.081026"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T22:42:31.081028"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T15:26:31.081030"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T04:49:31.081032"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T16:54:31.081033"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T22:40:31.081035"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T15:50:31.081037"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T13:56:31.081039"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T00:45:31.081040"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T00:11:31.081042"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T03:54:31.081043"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T06:35:31.081045"
+      },
+      {
+        "concept": "ceasefire",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T01:47:31.081050"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T13:38:31.081052"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T08:00:31.081053"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-17T17:52:31.081055"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T07:49:31.081056"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T17:49:31.081058"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T09:51:31.081060"
+      },
+      {
+        "concept": "territorial_integrity",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T00:27:31.081062"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T19:30:31.081064"
+      },
+      {
+        "concept": "sustainable",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-17T21:15:31.081065"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T21:30:31.081067"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T13:51:31.081069"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T20:53:31.081071"
+      }
+    ],
+    "explored_concepts": [
+      "culture",
+      "debt",
+      "climate_change",
+      "ceasefire",
+      "investment",
+      "governance",
+      "armed_conflict",
+      "discrimination",
+      "inequality",
+      "rule_law",
+      "trade",
+      "information",
+      "economic_development",
+      "disarmament",
+      "territorial_integrity",
+      "globalization",
+      "market",
+      "energy",
+      "finance",
+      "sustainable"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 12.390144746666007,
+    "interest_dimensions": [
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_021",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T16:17:31.081076"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T08:39:31.081078"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T16:12:31.081080"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T02:25:31.081082"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T11:01:31.081084"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T19:23:31.081086"
+      },
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T15:20:31.081088"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T20:02:31.081090"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T21:15:31.081092"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T09:45:31.081094"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T17:48:31.081095"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T19:42:31.081102"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T14:38:31.081104"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T23:16:31.081106"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T10:42:31.081108"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T08:51:31.081109"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-20T17:31:31.081111"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T23:29:31.081113"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-25T09:57:31.081115"
+      }
+    ],
+    "explored_concepts": [
+      "sustainable_development",
+      "trade",
+      "terrorism",
+      "gender_equality",
+      "globalization",
+      "innovation",
+      "digital",
+      "intervention",
+      "natural_resources",
+      "minority_rights",
+      "conflict_resolution",
+      "investment",
+      "pollution",
+      "security_council",
+      "information"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 11.780654334647569,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_022",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T14:00:31.081120"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T16:28:31.081122"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T08:16:31.081124"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T07:32:31.081126"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T15:34:31.081127"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T17:08:31.081129"
+      },
+      {
+        "concept": "social_justice",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T15:22:31.081131"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-20T08:58:31.081137"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T05:40:31.081139"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T01:04:31.081141"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T09:11:31.081143"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T13:21:31.081145"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T20:43:31.081147"
+      }
+    ],
+    "explored_concepts": [
+      "democracy",
+      "communication",
+      "science",
+      "poverty",
+      "terrorism",
+      "civil_society",
+      "market",
+      "equality",
+      "social_justice",
+      "pollution",
+      "sanctions",
+      "self_determination"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 8.857584281547053,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_023",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T12:19:31.081152"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T18:34:31.081153"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T00:49:31.081155"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T12:48:31.081157"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-17T20:55:31.081159"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T10:24:31.081161"
+      },
+      {
+        "concept": "health",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T17:41:31.081163"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T04:35:31.081165"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T09:15:31.081167"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T15:08:31.081168"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T17:27:31.081170"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T06:13:31.081172"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T09:10:31.081174"
+      },
+      {
+        "concept": "heritage",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T11:42:31.081176"
+      },
+      {
+        "concept": "science",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-23T21:46:31.081178"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T06:21:31.081179"
+      },
+      {
+        "concept": "governance",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T13:23:31.081186"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T19:26:31.081188"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T06:00:31.081189"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-22T13:21:31.081191"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T15:27:31.081193"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T23:34:31.081195"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-22T04:07:31.081197"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T00:08:31.081199"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T23:22:31.081201"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T02:36:31.081203"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T20:45:31.081205"
+      }
+    ],
+    "explored_concepts": [
+      "biodiversity",
+      "technology",
+      "culture",
+      "terrorism",
+      "minority_rights",
+      "heritage",
+      "dignity",
+      "health",
+      "democracy",
+      "governance",
+      "peacekeeping",
+      "armed_conflict",
+      "pollution",
+      "sanctions",
+      "conflict_resolution",
+      "freedom",
+      "trade",
+      "disarmament",
+      "energy",
+      "intervention",
+      "science"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 9.683445119958295,
+    "interest_dimensions": [
+      "维度三: 安全冲突",
+      "维度六: 科技文化"
+    ]
+  },
+  {
+    "user_id": "user_024",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T23:11:31.081210"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T22:01:31.081212"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T09:33:31.081214"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-25T12:11:31.081215"
+      },
+      {
+        "concept": "finance",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T15:46:31.081217"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T01:10:31.081219"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T07:13:31.081221"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T21:41:31.081223"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T14:22:31.081225"
+      },
+      {
+        "concept": "trade",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T21:39:31.081227"
+      },
+      {
+        "concept": "globalization",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T07:35:31.081229"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T14:54:31.081230"
+      },
+      {
+        "concept": "sustainable_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T15:44:31.081232"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T00:21:31.081234"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T21:35:31.081236"
+      },
+      {
+        "concept": "inequality",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T06:13:31.081238"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T02:11:31.081242"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T23:39:31.081244"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T23:10:31.081246"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T07:02:31.081249"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T02:11:31.081251"
+      },
+      {
+        "concept": "human_right",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T13:27:31.081252"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T07:01:31.081254"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T19:46:31.081256"
+      },
+      {
+        "concept": "ceasefire",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-25T11:06:31.081258"
+      },
+      {
+        "concept": "equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T21:58:31.081259"
+      },
+      {
+        "concept": "rule_law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-24T10:32:31.081261"
+      }
+    ],
+    "explored_concepts": [
+      "economic_development",
+      "sustainable_development",
+      "climate_change",
+      "poverty",
+      "ceasefire",
+      "gender_equality",
+      "globalization",
+      "market",
+      "human_right",
+      "inequality",
+      "equality",
+      "finance",
+      "investment",
+      "rule_law",
+      "sovereignty",
+      "self_determination",
+      "trade",
+      "multilateralism"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 11.685848631481957,
+    "interest_dimensions": [
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_025",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T21:03:31.081266"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T02:22:31.081270"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T02:54:31.081271"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T15:04:31.081273"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T23:58:31.081275"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-20T09:18:31.081278"
+      },
+      {
+        "concept": "civil_society",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T08:07:31.081279"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T16:51:31.081288"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T09:40:31.081290"
+      },
+      {
+        "concept": "sovereignty",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-21T23:22:31.081292"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T14:01:31.081293"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T00:52:31.081295"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T20:42:31.081297"
+      }
+    ],
+    "explored_concepts": [
+      "communication",
+      "disarmament",
+      "ward",
+      "civil_society",
+      "energy",
+      "discrimination",
+      "pollution",
+      "sanctions",
+      "sovereignty",
+      "freedom"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 6.533434233585728,
+    "interest_dimensions": [
+      "维度五: 环境资源",
+      "维度四: 经济贸易",
+      "维度二: 人权意识"
+    ]
+  },
+  {
+    "user_id": "user_026",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-23T13:28:31.081302"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T00:19:31.081304"
+      },
+      {
+        "concept": "energy",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T07:16:31.081306"
+      },
+      {
+        "concept": "investment",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-20T15:20:31.081308"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T05:51:31.081309"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T13:59:31.081311"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-18T02:06:31.081313"
+      },
+      {
+        "concept": "water",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T17:24:31.081315"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T08:01:31.081321"
+      },
+      {
+        "concept": "information",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T16:47:31.081324"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T17:06:31.081325"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T17:01:31.081327"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T00:08:31.081329"
+      },
+      {
+        "concept": "communication",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-21T10:49:31.081331"
+      }
+    ],
+    "explored_concepts": [
+      "economic_development",
+      "communication",
+      "disarmament",
+      "gender_equality",
+      "market",
+      "energy",
+      "discrimination",
+      "intervention",
+      "debt",
+      "investment",
+      "water",
+      "information"
+    ],
+    "diversity_score": 0.8333333333333334,
+    "explored_dimensions": 5,
+    "session_duration": 8.509287629446057,
+    "interest_dimensions": [
+      "维度五: 环境资源",
+      "维度四: 经济贸易"
+    ]
+  },
+  {
+    "user_id": "user_027",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T13:31:31.081335"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-25T11:51:31.081337"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T01:22:31.081339"
+      },
+      {
+        "concept": "self_determination",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-22T18:14:31.081341"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T09:18:31.081343"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-17T16:37:31.081344"
+      },
+      {
+        "concept": "market",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-24T20:18:31.081349"
+      },
+      {
+        "concept": "innovation",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-24T22:50:31.081351"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-22T09:32:31.081353"
+      },
+      {
+        "concept": "sanctions",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T08:08:31.081355"
+      }
+    ],
+    "explored_concepts": [
+      "ward",
+      "education",
+      "innovation",
+      "market",
+      "state",
+      "sanctions",
+      "self_determination",
+      "multilateralism"
+    ],
+    "diversity_score": 0.6666666666666666,
+    "explored_dimensions": 4,
+    "session_duration": 15.261973392282627,
+    "interest_dimensions": [
+      "维度一: 政治法律"
+    ]
+  },
+  {
+    "user_id": "user_028",
+    "user_type": "novice",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T23:16:31.081359"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T22:33:31.081361"
+      },
+      {
+        "concept": "ceasefire",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T13:16:31.081363"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T13:39:31.081365"
+      },
+      {
+        "concept": "nuclear_weapons",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T12:19:31.081366"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T14:25:31.081368"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-23T16:52:31.081370"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T04:32:31.081372"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T15:18:31.081374"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-21T08:04:31.081375"
+      },
+      {
+        "concept": "peacekeeping",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-17T19:29:31.081377"
+      },
+      {
+        "concept": "ceasefire",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T18:39:31.081379"
+      },
+      {
+        "concept": "disarmament",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T08:45:31.081381"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-24T21:02:31.081383"
+      },
+      {
+        "concept": "natural_resources",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-19T22:39:31.081388"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T02:58:31.081389"
+      },
+      {
+        "concept": "ward",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T20:33:31.081391"
+      },
+      {
+        "concept": "debt",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-17T17:38:31.081393"
+      },
+      {
+        "concept": "minority_rights",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-24T03:37:31.081395"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-25T09:46:31.081397"
+      },
+      {
+        "concept": "poverty",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T22:43:31.081399"
+      },
+      {
+        "concept": "digital",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-17T15:23:31.081401"
+      },
+      {
+        "concept": "state",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-23T18:43:31.081402"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T00:00:31.081404"
+      }
+    ],
+    "explored_concepts": [
+      "ceasefire",
+      "disarmament",
+      "ward",
+      "terrorism",
+      "gender_equality",
+      "poverty",
+      "peacekeeping",
+      "digital",
+      "culture",
+      "armed_conflict",
+      "dignity",
+      "state",
+      "intervention",
+      "nuclear_weapons",
+      "natural_resources",
+      "debt",
+      "minority_rights",
+      "security_council"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 19.896210014217694,
+    "interest_dimensions": [
+      "维度三: 安全冲突"
+    ]
+  },
+  {
+    "user_id": "user_029",
+    "user_type": "expert",
+    "ab_group": "experiment",
+    "click_history": [
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-25T12:40:31.081409"
+      },
+      {
+        "concept": "freedom",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T19:37:31.081411"
+      },
+      {
+        "concept": "conflict_resolution",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-25T02:23:31.081413"
+      },
+      {
+        "concept": "security_council",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T04:07:31.081415"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T15:10:31.081417"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T11:53:31.081418"
+      },
+      {
+        "concept": "armed_conflict",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-19T10:52:31.081420"
+      },
+      {
+        "concept": "dignity",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T05:41:31.081422"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-19T13:53:31.081424"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-22T16:43:31.081425"
+      },
+      {
+        "concept": "intervention",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-18T22:28:31.081427"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-17T23:39:31.081429"
+      },
+      {
+        "concept": "gender_equality",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-23T17:37:31.081431"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T05:36:31.081433"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-21T11:21:31.081434"
+      },
+      {
+        "concept": "democracy",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-22T10:41:31.081436"
+      },
+      {
+        "concept": "discrimination",
+        "dimension": "维度二: 人权意识",
+        "timestamp": "2026-04-18T13:49:31.081438"
+      },
+      {
+        "concept": "terrorism",
+        "dimension": "维度三: 安全冲突",
+        "timestamp": "2026-04-20T01:47:31.081439"
+      },
+      {
+        "concept": "deforestation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-20T16:25:31.081445"
+      },
+      {
+        "concept": "conservation",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-21T17:23:31.081447"
+      },
+      {
+        "concept": "technology",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T02:05:31.081449"
+      },
+      {
+        "concept": "education",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-18T14:04:31.081451"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-21T18:54:31.081453"
+      },
+      {
+        "concept": "climate_change",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-23T21:42:31.081454"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-24T12:00:31.081456"
+      },
+      {
+        "concept": "biodiversity",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-25T03:06:31.081458"
+      },
+      {
+        "concept": "economic_development",
+        "dimension": "维度四: 经济贸易",
+        "timestamp": "2026-04-19T17:53:31.081459"
+      },
+      {
+        "concept": "pollution",
+        "dimension": "维度五: 环境资源",
+        "timestamp": "2026-04-18T22:46:31.081461"
+      },
+      {
+        "concept": "law",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-19T03:32:31.081463"
+      },
+      {
+        "concept": "multilateralism",
+        "dimension": "维度一: 政治法律",
+        "timestamp": "2026-04-18T04:54:31.081464"
+      },
+      {
+        "concept": "culture",
+        "dimension": "维度六: 科技文化",
+        "timestamp": "2026-04-19T18:30:31.081466"
+      }
+    ],
+    "explored_concepts": [
+      "biodiversity",
+      "technology",
+      "culture",
+      "terrorism",
+      "gender_equality",
+      "multilateralism",
+      "climate_change",
+      "deforestation",
+      "education",
+      "dignity",
+      "democracy",
+      "armed_conflict",
+      "discrimination",
+      "pollution",
+      "conflict_resolution",
+      "security_council",
+      "economic_development",
+      "intervention",
+      "freedom",
+      "law",
+      "conservation"
+    ],
+    "diversity_score": 1.0,
+    "explored_dimensions": 6,
+    "session_duration": 12.924363534900156,
+    "interest_dimensions": [
+      "维度二: 人权意识",
+      "维度三: 安全冲突"
+    ]
+  }
+]
