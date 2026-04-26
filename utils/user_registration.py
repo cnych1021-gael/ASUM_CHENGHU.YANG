@@ -8,7 +8,7 @@ from streamlit_gsheets import GSheetsConnection
 SHEET_ID = st.secrets["connections"]["gsheets"]["spreadsheet"]
 
 def get_gsheets_conn():
-    return st.connection("gsheets", type=GSheetsConnection)
+    conn = st.connection("gsheets", type=GSheetsConnection)
 
 def save_user_profile_to_sheets(user_profile):
     """保存用户档案"""
