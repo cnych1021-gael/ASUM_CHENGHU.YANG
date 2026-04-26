@@ -5,7 +5,7 @@ import os
 import gdown
 
 def download_models_from_drive():
-    # 设定你想保存模型的路径，根据你之前的截图，应该是放在 data/user_data/ 目录下
+    # 设定你想保存模型的路径
     save_dir = "data/user_data"
     
     # 确保文件夹存在，如果不存在就自动创建一个
@@ -147,3 +147,6 @@ def get_six_dimensions():
                            "cultural_heritage", "education", "innovation", "cybersecurity", "digital_divide", 
                            "intellectual_property", "science_technology"]
     }
+
+# 🚀 关键修改：在这里调用函数，确保只要导入此文件就会执行下载检查！
+download_models_from_drive()
